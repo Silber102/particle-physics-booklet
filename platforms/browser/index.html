@@ -1,43 +1,115 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <!--<div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>-->
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+	<head>
+		<title>Particle Physics Booklet</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="#"><img src="images/logo-sm.png" width="100"></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="#">Home</a></li>
+					<li><a href="reviews.html">Reviews, Tables, Plots</a></li>
+					<li><a href="summary-tables.html">Summary Tables</a></li>
+                    <li><a href="#info">More Info</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Particle Physics Booklet</h1>
+					<p style="font-size:medium;"> <a href="http://pdg.lbl.gov/2019/html/authors_2018.html">M. Tanabashi <em>et al.</em> (Particle Data Group)</a>, <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.030001">Phys. Rev. D <strong>98</strong>, 030001 (2018).</a></p>
+				</div>
+				<!--<video autoplay loop muted playsinline src="images/banner.mp4"></video>-->
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper-non">
+				<div class="inner-non">
+					
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									 <span class="mainlink"><a href="reviews.html"><h3>Reviews, Tables, Plots</h3></a></span>
+                                     <span class="mainlink"><a href="summary-tables.html"><h3>Summary Tables</h3></a></span>
+                                     <span class="mainlink"><a href="#"><h3>Other</h3></a></span>
+                                   
+								</header>
+								
+							</div>
+						</section>
+						
+						
+					</div>
+				</div>
+			</section>
+<a id="info"></a>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+                        
+							<h3>Miscellaneous PDG Info</h3>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+						</section>
+						<section>
+							<h4>Other Info</h4>
+							<ul class="alt">
+								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
+								<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Follow Us</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						All pages &copy; 2019 Regents of the University of California. <br />See <a class="linkgrey" href="http://www.lbl.gov/disclaimers/">LBNL disclaimers</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+          <!-- Phonegap -->
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+            <script type="text/javascript">
+             app.initialize();
+            </script>
+          <!-- End Phonegap -->
+        <!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
 </html>
